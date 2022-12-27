@@ -2,22 +2,26 @@
 *{
     margin:0px;
     padding:0px;
+    
 }
 /* navigation bar */
 .navbar{
     display:flex;
     position: absolute;
     top:0px;
+    position: sticky;
+   top: 0;
+   z-index: 100;
 }
 /* setting the black background */
 .navbar::before{
     content:"";
     background-color: black;
     width:100%;
-    height:100%;
+    height:80%;
     position:absolute;
     z-index:-1;
-    opacity:0.4;
+    opacity:1.4;
 }
 
 /* navigation bar-logo */
@@ -85,7 +89,8 @@
 
 .h-primary{
     font-size: 3.8rem;
-    padding:3px 25px;
+    padding:15px 25px;
+    /* margin-top:20px; */
     text-align: center;
 }
 .h-secondary{
@@ -108,13 +113,18 @@ cursor:pointer;
 }
 /* services section */
 .services{
-    margin:34px;
+    margin: 34px;
+    margin-top: 10px;
+    margin-right: 34px;
+    /* margin-bottom: 34px; */
+    margin-left: 34px;
     display:flex;
     align-items: center;
+    background-color: bisque;
 }
 .services h1{
     text-align: center;
-    margin:2px 15px;
+    margin:8px 15px;
 }
 .box {
     border:2px solid brown;
@@ -138,17 +148,20 @@ display:block;
 margin:auto;
 }
 .service-container{  
-    margin:34px;
+    /* margin:34px; */
+    background-color:bisque;
+    
 }
 /* client section */
 #client-section{
    display:block;
-   height:344px;
+   height:340px;
    position:relative;
 }
 #client-section::before{
     content:"";
     background:url("images used/client2.jpg") no-repeat center center/cover;
+    /* background-color: bisque; */
     width:100%;
     height:100%;
     position:absolute;
@@ -156,16 +169,17 @@ margin:auto;
     opacity:0.85;
 }
 .clients{
+    margin:30px;
     display:flex;
     justify-content: center;
     align-items: center;
-    height:344px
+    height:100px;
 }
 .client-item img{
-    height:124px;
+    height:75px;
 }
 .client-item{
-    padding:34px;
+    padding:30px;
 }
 /* contact us form */
 
@@ -174,7 +188,8 @@ margin:auto;
 }
 #contact::before{
     content:"";
-    background:url("images used/contact.jpg") no-repeat center center/cover;
+    /* background:url("images used/contact.jpg") no-repeat center center/cover; */
+    background-color:grey;
     position:absolute;
     height:70%;
     width:100%;
