@@ -7,8 +7,8 @@
 
 ### How the website looks
 
-![Food Delivery Website](Screenshot_20221227_201017.png)
+![Food Delivery Website](foodies.png)
 
 ### Deployed Link
-[Fitness Website Homepage](https://capable-fudge-a6426b.netlify.app)
+[Food delivery Website](https://nishrane.github.io/food-delivery-website/)
 
